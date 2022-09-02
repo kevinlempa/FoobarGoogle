@@ -11,7 +11,6 @@ def solution(h, q):
         if currentNode == converter:
             result.append(prevNode)
             
-
         prevNode = currentNode
 
         while subtree > 1:
@@ -33,4 +32,3 @@ def solution(h, q):
         if i != len(result):
             result.append(-1)   
     return result
-
